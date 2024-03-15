@@ -35,7 +35,6 @@ describe('Nepal Political Division', function () {
             assert.lengthOf(municipalities, 15);
         });
     })
-
     describe('Ward', () => {
         it('should return an array of wards', function () {
             const wards = Nepal.WardDetails("गौरादह नगरपालिका");
@@ -46,6 +45,7 @@ describe('Nepal Political Division', function () {
             assert.lengthOf(wards, 9);
         });
     })
+
     describe('All Districts', () => {
         it('should return an array of districts', function () {
             const districts = Nepal.AllDistricts();
